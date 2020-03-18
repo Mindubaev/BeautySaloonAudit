@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.beautysaloonaudit.Controllers.RegistrationWindowController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="400.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../image/reg.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="112.0" layoutY="102.0" prefHeight="280.0" prefWidth="268.0" spacing="40.0" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="102.0">
+         <children>
+            <TextField fx:id="firstnameField" />
+            <TextField fx:id="lastnameField" />
+            <TextField fx:id="loginField" />
+            <TextField fx:id="passwordField" />
+         </children>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="110.0" prefHeight="280.0" prefWidth="92.0" spacing="50.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="110.0">
+         <children>
+            <Label text="Имя" />
+            <Label text="Фамилия" />
+            <Label text="Логин" />
+            <Label text="Пароль" />
+         </children>
+      </VBox>
+      <Button layoutX="75.0" layoutY="394.0" mnemonicParsing="false" onAction="#registrationHendler" prefHeight="39.0" prefWidth="250.0" text="Зарегистрировать" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" />
+      <Button layoutX="144.0" layoutY="447.0" mnemonicParsing="false" onAction="#closeWindowHendler" prefHeight="39.0" prefWidth="113.0" text="Отмена" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="144.0" AnchorPane.rightAnchor="143.0" />
+      <Label fx:id="infoLabel" layoutX="14.0" layoutY="14.0" prefHeight="96.0" prefWidth="377.0" textFill="#cd0707" AnchorPane.bottomAnchor="390.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="9.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+com\mycompany\beautysaloonaudit\DAO\Order\OrderServiceImplTest.class
+com\mycompany\beautysaloonaudit\TimeManagerTest.class
+com\mycompany\beautysaloonaudit\DAO\User\UserServiceImplTest.class
+com\mycompany\beautysaloonaudit\valodators\PasswordValidatorTest.class
+com\mycompany\beautysaloonaudit\valodators\LoginValidatorTest.class
+com\mycompany\beautysaloonaudit\valodators\UserDetailValidatorTest.class

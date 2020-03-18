@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.beautysaloonaudit.DAO.User.UserServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.733 sec - in com.mycompany.beautysaloonaudit.DAO.User.UserServiceImplTest
